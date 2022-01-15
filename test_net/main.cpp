@@ -28,6 +28,7 @@ int main(int argc,char* argv[]){
     //(&s)->async_connect(server_endp,[](boost::system::error_code ec){});
     io->run();
     io->run();
+    //(&s)->async_connect(server_endp,[](boost::system::error_code ec){});
     io->run();
     io->run();
 }
